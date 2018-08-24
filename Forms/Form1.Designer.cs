@@ -37,6 +37,7 @@
             this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.infoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Arvio = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             this.groupBox1.Size = new System.Drawing.Size(319, 316);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Elokuvan Tiedot";
             // 
             // menuStrip1
             // 
@@ -71,7 +72,7 @@
             // poistuToolStripMenuItem
             // 
             this.poistuToolStripMenuItem.Name = "poistuToolStripMenuItem";
-            this.poistuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.poistuToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.poistuToolStripMenuItem.Text = "Poistu";
             // 
             // tietojaToolStripMenuItem
@@ -108,13 +109,23 @@
             this.groupBox2.Size = new System.Drawing.Size(449, 701);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Toiminallisuus";
+            // 
+            // Arvio
+            // 
+            this.Arvio.Location = new System.Drawing.Point(12, 349);
+            this.Arvio.Name = "Arvio";
+            this.Arvio.Size = new System.Drawing.Size(319, 379);
+            this.Arvio.TabIndex = 3;
+            this.Arvio.TabStop = false;
+            this.Arvio.Text = "Arvio";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 740);
+            this.Controls.Add(this.Arvio);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
@@ -139,6 +150,7 @@
         private System.Windows.Forms.ToolStripSeparator infoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox Arvio;
     }
 }
 
